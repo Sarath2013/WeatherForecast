@@ -3,7 +3,7 @@ import axios from 'axios';
 
 export function* fetchWeatherData() {
     try {
-        const res = yield call(axios.get, 'http://api.openweathermap.org/data/2.5/forecast?q=Munich,de&APPID=75f972b80e26f14fe6c920aa6a85ad57&cnt=40');
+        const res = yield call(axios.get, 'https://api.openweathermap.org/data/2.5/forecast?q=Munich,de&APPID=75f972b80e26f14fe6c920aa6a85ad57&cnt=40');
         if (res.data.cod === '200')
             yield put({ type: "WEATHER_DATA_RECEIVED", data: formatWeatherData(res.data) });
         else
