@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Unit Testing - Rendering Notify with Error renders snapshot 1`] = `
+<div
+  className="center-content notify-content"
+>
+  <h1
+    className="alert-red"
+  >
+    Something went wrong. Sorry, we can't show weather information at this time.
+  </h1>
+</div>
+`;
+
+exports[`Unit Testing - Rendering Notify with No weather forecasts renders snapshot 1`] = `
+<div
+  className="center-content notify-content"
+>
+  <h1>
+    No weather forecasts avaialble.
+  </h1>
+</div>
+`;

@@ -1,0 +1,764 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Unit Testing - Rendering Weather view with Barchart renders snapshot 1`] = `
+<div
+  className="weather-view-container"
+>
+  <div
+    className="weather-view"
+  >
+    <div>
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+      >
+        <WithStyles(ForwardRef(Grid))
+          className="temp-type-container"
+          item={true}
+          xs={12}
+        >
+          <WithStyles(ForwardRef(FormControl))
+            component="fieldset"
+          >
+            <ForwardRef(RadioGroup)
+              aria-label="Select Temperature Type"
+              className="temp-radio-group"
+              name="temperature-type"
+              onChange={[Function]}
+              row={true}
+              value="fahrenheit"
+            >
+              <WithStyles(ForwardRef(FormControlLabel))
+                className="celsius"
+                control={
+                  <ForwardRef(WithStyles)
+                    color="primary"
+                  />
+                }
+                label="Celsius"
+                labelPlacement="end"
+                value="celsius"
+              />
+              <WithStyles(ForwardRef(FormControlLabel))
+                className="fahrenheit"
+                control={
+                  <ForwardRef(WithStyles)
+                    color="primary"
+                  />
+                }
+                label="Fahrenheit"
+                labelPlacement="end"
+                value="fahrenheit"
+              />
+            </ForwardRef(RadioGroup)>
+          </WithStyles(ForwardRef(FormControl))>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          className="arrow-container left"
+          item={true}
+          xs={6}
+        />
+        <WithStyles(ForwardRef(Grid))
+          className="arrow-container right"
+          item={true}
+          xs={6}
+        />
+        <WithStyles(ForwardRef(Grid))
+          className="grid-card"
+          item={true}
+          key="0"
+          xs={4}
+        >
+          <Memo(CardComponent)
+            cardData={
+              Object {
+                "chartDataC": Array [
+                  Array [
+                    "C",
+                    "Temp",
+                  ],
+                  Array [
+                    "4C",
+                    4,
+                  ],
+                  Array [
+                    "3C",
+                    3,
+                  ],
+                  Array [
+                    "1C",
+                    1,
+                  ],
+                ],
+                "chartDataF": Array [
+                  Array [
+                    "F",
+                    "Temp",
+                  ],
+                  Array [
+                    "39F",
+                    39,
+                  ],
+                  Array [
+                    "37F",
+                    37,
+                  ],
+                  Array [
+                    "33F",
+                    33,
+                  ],
+                ],
+                "date": "2019-11-12",
+                "displayDate": "12 Nov 19",
+                "fragmentsC": Array [
+                  3.6100000000000136,
+                  2.25,
+                  0.3900000000000432,
+                ],
+                "fragmentsF": Array [
+                  38.498000000000026,
+                  36.05,
+                  32.702000000000076,
+                ],
+                "humidity": 87,
+                "tempC": "3C",
+                "tempF": "36F",
+                "weather": "overcast clouds",
+                "weatherArr": Array [
+                  Object {
+                    "count": 2,
+                    "weather": "overcast clouds",
+                  },
+                  Object {
+                    "count": 1,
+                    "weather": "light snow",
+                  },
+                ],
+              }
+            }
+            onSelect={[Function]}
+            temperatureType="fahrenheit"
+          />
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          className="card-active grid-card"
+          item={true}
+          key="1"
+          xs={4}
+        >
+          <Memo(CardComponent)
+            cardData={
+              Object {
+                "chartDataC": Array [
+                  Array [
+                    "C",
+                    "Temp",
+                  ],
+                  Array [
+                    "2C",
+                    2,
+                  ],
+                  Array [
+                    "5C",
+                    5,
+                  ],
+                  Array [
+                    "3C",
+                    3,
+                  ],
+                ],
+                "chartDataF": Array [
+                  Array [
+                    "F",
+                    "Temp",
+                  ],
+                  Array [
+                    "38F",
+                    38,
+                  ],
+                  Array [
+                    "32F",
+                    32,
+                  ],
+                  Array [
+                    "34F",
+                    34,
+                  ],
+                ],
+                "date": "2019-11-13",
+                "displayDate": "13 Nov 19",
+                "fragmentsC": Array [
+                  1.6100000000000136,
+                  4.25,
+                  2.390000000000043,
+                ],
+                "fragmentsF": Array [
+                  39.498000000000026,
+                  31.05,
+                  33.702000000000076,
+                ],
+                "humidity": 89,
+                "tempC": "4C",
+                "tempF": "38F",
+                "weather": "light snow",
+                "weatherArr": Array [
+                  Object {
+                    "count": 2,
+                    "weather": "light snow",
+                  },
+                  Object {
+                    "count": 1,
+                    "weather": "overcast clouds",
+                  },
+                ],
+              }
+            }
+            onSelect={[Function]}
+            temperatureType="fahrenheit"
+          />
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          className="bar-chart-container"
+          item={true}
+          xs={12}
+        >
+          <BarChart
+            chartData={
+              Object {
+                "chartDataC": Array [
+                  Array [
+                    "C",
+                    "Temp",
+                  ],
+                  Array [
+                    "2C",
+                    2,
+                  ],
+                  Array [
+                    "5C",
+                    5,
+                  ],
+                  Array [
+                    "3C",
+                    3,
+                  ],
+                ],
+                "chartDataF": Array [
+                  Array [
+                    "F",
+                    "Temp",
+                  ],
+                  Array [
+                    "38F",
+                    38,
+                  ],
+                  Array [
+                    "32F",
+                    32,
+                  ],
+                  Array [
+                    "34F",
+                    34,
+                  ],
+                ],
+                "date": "2019-11-13",
+                "displayDate": "13 Nov 19",
+                "fragmentsC": Array [
+                  1.6100000000000136,
+                  4.25,
+                  2.390000000000043,
+                ],
+                "fragmentsF": Array [
+                  39.498000000000026,
+                  31.05,
+                  33.702000000000076,
+                ],
+                "humidity": 89,
+                "tempC": "4C",
+                "tempF": "38F",
+                "weather": "light snow",
+                "weatherArr": Array [
+                  Object {
+                    "count": 2,
+                    "weather": "light snow",
+                  },
+                  Object {
+                    "count": 1,
+                    "weather": "overcast clouds",
+                  },
+                ],
+              }
+            }
+            temperatureType="fahrenheit"
+          />
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Unit Testing - Rendering Weather view with Celsius renders snapshot 1`] = `
+<div
+  className="weather-view-container"
+>
+  <div
+    className="weather-view"
+  >
+    <div>
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+      >
+        <WithStyles(ForwardRef(Grid))
+          className="temp-type-container"
+          item={true}
+          xs={12}
+        >
+          <WithStyles(ForwardRef(FormControl))
+            component="fieldset"
+          >
+            <ForwardRef(RadioGroup)
+              aria-label="Select Temperature Type"
+              className="temp-radio-group"
+              name="temperature-type"
+              onChange={[Function]}
+              row={true}
+              value="celsius"
+            >
+              <WithStyles(ForwardRef(FormControlLabel))
+                className="celsius"
+                control={
+                  <ForwardRef(WithStyles)
+                    color="primary"
+                  />
+                }
+                label="Celsius"
+                labelPlacement="end"
+                value="celsius"
+              />
+              <WithStyles(ForwardRef(FormControlLabel))
+                className="fahrenheit"
+                control={
+                  <ForwardRef(WithStyles)
+                    color="primary"
+                  />
+                }
+                label="Fahrenheit"
+                labelPlacement="end"
+                value="fahrenheit"
+              />
+            </ForwardRef(RadioGroup)>
+          </WithStyles(ForwardRef(FormControl))>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          className="arrow-container left"
+          item={true}
+          xs={6}
+        />
+        <WithStyles(ForwardRef(Grid))
+          className="arrow-container right"
+          item={true}
+          xs={6}
+        />
+        <WithStyles(ForwardRef(Grid))
+          className="grid-card"
+          item={true}
+          key="0"
+          xs={4}
+        >
+          <Memo(CardComponent)
+            cardData={
+              Object {
+                "chartDataC": Array [
+                  Array [
+                    "C",
+                    "Temp",
+                  ],
+                  Array [
+                    "4C",
+                    4,
+                  ],
+                  Array [
+                    "3C",
+                    3,
+                  ],
+                  Array [
+                    "1C",
+                    1,
+                  ],
+                ],
+                "chartDataF": Array [
+                  Array [
+                    "F",
+                    "Temp",
+                  ],
+                  Array [
+                    "39F",
+                    39,
+                  ],
+                  Array [
+                    "37F",
+                    37,
+                  ],
+                  Array [
+                    "33F",
+                    33,
+                  ],
+                ],
+                "date": "2019-11-12",
+                "displayDate": "12 Nov 19",
+                "fragmentsC": Array [
+                  3.6100000000000136,
+                  2.25,
+                  0.3900000000000432,
+                ],
+                "fragmentsF": Array [
+                  38.498000000000026,
+                  36.05,
+                  32.702000000000076,
+                ],
+                "humidity": 87,
+                "tempC": "3C",
+                "tempF": "36F",
+                "weather": "overcast clouds",
+                "weatherArr": Array [
+                  Object {
+                    "count": 2,
+                    "weather": "overcast clouds",
+                  },
+                  Object {
+                    "count": 1,
+                    "weather": "light snow",
+                  },
+                ],
+              }
+            }
+            onSelect={[Function]}
+            temperatureType="celsius"
+          />
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          className="grid-card"
+          item={true}
+          key="1"
+          xs={4}
+        >
+          <Memo(CardComponent)
+            cardData={
+              Object {
+                "chartDataC": Array [
+                  Array [
+                    "C",
+                    "Temp",
+                  ],
+                  Array [
+                    "2C",
+                    2,
+                  ],
+                  Array [
+                    "5C",
+                    5,
+                  ],
+                  Array [
+                    "3C",
+                    3,
+                  ],
+                ],
+                "chartDataF": Array [
+                  Array [
+                    "F",
+                    "Temp",
+                  ],
+                  Array [
+                    "38F",
+                    38,
+                  ],
+                  Array [
+                    "32F",
+                    32,
+                  ],
+                  Array [
+                    "34F",
+                    34,
+                  ],
+                ],
+                "date": "2019-11-13",
+                "displayDate": "13 Nov 19",
+                "fragmentsC": Array [
+                  1.6100000000000136,
+                  4.25,
+                  2.390000000000043,
+                ],
+                "fragmentsF": Array [
+                  39.498000000000026,
+                  31.05,
+                  33.702000000000076,
+                ],
+                "humidity": 89,
+                "tempC": "4C",
+                "tempF": "38F",
+                "weather": "light snow",
+                "weatherArr": Array [
+                  Object {
+                    "count": 2,
+                    "weather": "light snow",
+                  },
+                  Object {
+                    "count": 1,
+                    "weather": "overcast clouds",
+                  },
+                ],
+              }
+            }
+            onSelect={[Function]}
+            temperatureType="celsius"
+          />
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          className="bar-chart-container"
+          item={true}
+          xs={12}
+        >
+          <div
+            className="bar-chart-notify"
+          >
+            Please select a card to show temperature fragments in a Bar Chart.
+          </div>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Unit Testing - Rendering Weather view with Fahrenheit renders snapshot 1`] = `
+<div
+  className="weather-view-container"
+>
+  <div
+    className="weather-view"
+  >
+    <div>
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+      >
+        <WithStyles(ForwardRef(Grid))
+          className="temp-type-container"
+          item={true}
+          xs={12}
+        >
+          <WithStyles(ForwardRef(FormControl))
+            component="fieldset"
+          >
+            <ForwardRef(RadioGroup)
+              aria-label="Select Temperature Type"
+              className="temp-radio-group"
+              name="temperature-type"
+              onChange={[Function]}
+              row={true}
+              value="fahrenheit"
+            >
+              <WithStyles(ForwardRef(FormControlLabel))
+                className="celsius"
+                control={
+                  <ForwardRef(WithStyles)
+                    color="primary"
+                  />
+                }
+                label="Celsius"
+                labelPlacement="end"
+                value="celsius"
+              />
+              <WithStyles(ForwardRef(FormControlLabel))
+                className="fahrenheit"
+                control={
+                  <ForwardRef(WithStyles)
+                    color="primary"
+                  />
+                }
+                label="Fahrenheit"
+                labelPlacement="end"
+                value="fahrenheit"
+              />
+            </ForwardRef(RadioGroup)>
+          </WithStyles(ForwardRef(FormControl))>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          className="arrow-container left"
+          item={true}
+          xs={6}
+        />
+        <WithStyles(ForwardRef(Grid))
+          className="arrow-container right"
+          item={true}
+          xs={6}
+        />
+        <WithStyles(ForwardRef(Grid))
+          className="grid-card"
+          item={true}
+          key="0"
+          xs={4}
+        >
+          <Memo(CardComponent)
+            cardData={
+              Object {
+                "chartDataC": Array [
+                  Array [
+                    "C",
+                    "Temp",
+                  ],
+                  Array [
+                    "4C",
+                    4,
+                  ],
+                  Array [
+                    "3C",
+                    3,
+                  ],
+                  Array [
+                    "1C",
+                    1,
+                  ],
+                ],
+                "chartDataF": Array [
+                  Array [
+                    "F",
+                    "Temp",
+                  ],
+                  Array [
+                    "39F",
+                    39,
+                  ],
+                  Array [
+                    "37F",
+                    37,
+                  ],
+                  Array [
+                    "33F",
+                    33,
+                  ],
+                ],
+                "date": "2019-11-12",
+                "displayDate": "12 Nov 19",
+                "fragmentsC": Array [
+                  3.6100000000000136,
+                  2.25,
+                  0.3900000000000432,
+                ],
+                "fragmentsF": Array [
+                  38.498000000000026,
+                  36.05,
+                  32.702000000000076,
+                ],
+                "humidity": 87,
+                "tempC": "3C",
+                "tempF": "36F",
+                "weather": "overcast clouds",
+                "weatherArr": Array [
+                  Object {
+                    "count": 2,
+                    "weather": "overcast clouds",
+                  },
+                  Object {
+                    "count": 1,
+                    "weather": "light snow",
+                  },
+                ],
+              }
+            }
+            onSelect={[Function]}
+            temperatureType="fahrenheit"
+          />
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          className="grid-card"
+          item={true}
+          key="1"
+          xs={4}
+        >
+          <Memo(CardComponent)
+            cardData={
+              Object {
+                "chartDataC": Array [
+                  Array [
+                    "C",
+                    "Temp",
+                  ],
+                  Array [
+                    "2C",
+                    2,
+                  ],
+                  Array [
+                    "5C",
+                    5,
+                  ],
+                  Array [
+                    "3C",
+                    3,
+                  ],
+                ],
+                "chartDataF": Array [
+                  Array [
+                    "F",
+                    "Temp",
+                  ],
+                  Array [
+                    "38F",
+                    38,
+                  ],
+                  Array [
+                    "32F",
+                    32,
+                  ],
+                  Array [
+                    "34F",
+                    34,
+                  ],
+                ],
+                "date": "2019-11-13",
+                "displayDate": "13 Nov 19",
+                "fragmentsC": Array [
+                  1.6100000000000136,
+                  4.25,
+                  2.390000000000043,
+                ],
+                "fragmentsF": Array [
+                  39.498000000000026,
+                  31.05,
+                  33.702000000000076,
+                ],
+                "humidity": 89,
+                "tempC": "4C",
+                "tempF": "38F",
+                "weather": "light snow",
+                "weatherArr": Array [
+                  Object {
+                    "count": 2,
+                    "weather": "light snow",
+                  },
+                  Object {
+                    "count": 1,
+                    "weather": "overcast clouds",
+                  },
+                ],
+              }
+            }
+            onSelect={[Function]}
+            temperatureType="fahrenheit"
+          />
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          className="bar-chart-container"
+          item={true}
+          xs={12}
+        >
+          <div
+            className="bar-chart-notify"
+          >
+            Please select a card to show temperature fragments in a Bar Chart.
+          </div>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </div>
+  </div>
+</div>
+`;

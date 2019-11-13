@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Unit Testing - Rendering Card with Celsius renders snapshot 1`] = `
+<WithStyles(ForwardRef(Card))
+  className="card-comp"
+  onClick={[Function]}
+>
+  <WithStyles(ForwardRef(CardActionArea))>
+    <WithStyles(ForwardRef(CardContent))>
+      <WithStyles(ForwardRef(Typography))
+        className="card-name"
+        gutterBottom={true}
+      >
+        Temp:
+      </WithStyles(ForwardRef(Typography))>
+      <WithStyles(ForwardRef(Typography))
+        className="card-value"
+        gutterBottom={true}
+      >
+        5C
+      </WithStyles(ForwardRef(Typography))>
+      <WithStyles(ForwardRef(Typography))
+        className="card-name"
+        gutterBottom={true}
+      >
+        Date:
+      </WithStyles(ForwardRef(Typography))>
+      <WithStyles(ForwardRef(Typography))
+        className="card-value"
+        gutterBottom={true}
+      >
+        12 Nov 19
+      </WithStyles(ForwardRef(Typography))>
+      <WithStyles(ForwardRef(Typography))
+        className="card-name"
+        gutterBottom={true}
+      >
+        Humidity:
+      </WithStyles(ForwardRef(Typography))>
+      <WithStyles(ForwardRef(Typography))
+        className="card-value"
+        gutterBottom={true}
+      >
+        83
+      </WithStyles(ForwardRef(Typography))>
+      <WithStyles(ForwardRef(Typography))
+        className="card-name"
+        gutterBottom={true}
+      >
+        Weather:
+      </WithStyles(ForwardRef(Typography))>
+      <WithStyles(ForwardRef(Typography))
+        className="content-ellipsis card-value"
+        gutterBottom={true}
+      >
+        overcast clouds
+      </WithStyles(ForwardRef(Typography))>
+    </WithStyles(ForwardRef(CardContent))>
+  </WithStyles(ForwardRef(CardActionArea))>
+</WithStyles(ForwardRef(Card))>
+`;
+
+exports[`Unit Testing - Rendering Card with Fahrenheit renders snapshot 1`] = `
+<WithStyles(ForwardRef(Card))
+  className="card-comp"
+  onClick={[Function]}
+>
+  <WithStyles(ForwardRef(CardActionArea))>
+    <WithStyles(ForwardRef(CardContent))>
+      <WithStyles(ForwardRef(Typography))
+        className="card-name"
+        gutterBottom={true}
+      >
+        Temp:
+      </WithStyles(ForwardRef(Typography))>
+      <WithStyles(ForwardRef(Typography))
+        className="card-value"
+        gutterBottom={true}
+      >
+        40F
+      </WithStyles(ForwardRef(Typography))>
+      <WithStyles(ForwardRef(Typography))
+        className="card-name"
+        gutterBottom={true}
+      >
+        Date:
+      </WithStyles(ForwardRef(Typography))>
+      <WithStyles(ForwardRef(Typography))
+        className="card-value"
+        gutterBottom={true}
+      >
+        12 Nov 19
+      </WithStyles(ForwardRef(Typography))>
+      <WithStyles(ForwardRef(Typography))
+        className="card-name"
+        gutterBottom={true}
+      >
+        Humidity:
+      </WithStyles(ForwardRef(Typography))>
+      <WithStyles(ForwardRef(Typography))
+        className="card-value"
+        gutterBottom={true}
+      >
+        83
+      </WithStyles(ForwardRef(Typography))>
+      <WithStyles(ForwardRef(Typography))
+        className="card-name"
+        gutterBottom={true}
+      >
+        Weather:
+      </WithStyles(ForwardRef(Typography))>
+      <WithStyles(ForwardRef(Typography))
+        className="content-ellipsis card-value"
+        gutterBottom={true}
+      >
+        overcast clouds
+      </WithStyles(ForwardRef(Typography))>
+    </WithStyles(ForwardRef(CardContent))>
+  </WithStyles(ForwardRef(CardActionArea))>
+</WithStyles(ForwardRef(Card))>
+`;

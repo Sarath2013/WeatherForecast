@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Unit Testing - Rendering BarChart with Celsius renders snapshot 1`] = `
+<Chart
+  chartActions={null}
+  chartEvents={null}
+  chartType="Bar"
+  chartWrapperParams={Object {}}
+  className=""
+  columns={null}
+  controls={null}
+  data={
+    Array [
+      Array [
+        "C",
+        "Temp",
+      ],
+      Array [
+        "4C",
+        4,
+      ],
+      Array [
+        "3C",
+        3,
+      ],
+      Array [
+        "1C",
+        1,
+      ],
+    ]
+  }
+  diffdata={null}
+  formatters={null}
+  getChartEditor={null}
+  getChartWrapper={[Function]}
+  graphID={null}
+  graph_id={null}
+  height="240px"
+  legendToggle={false}
+  legend_toggle={false}
+  loader={
+    <div
+      className="chart-loader"
+    >
+      Loading Chart ...
+    </div>
+  }
+  options={
+    Object {
+      "legend": Object {
+        "position": "none",
+      },
+    }
+  }
+  render={null}
+  rootProps={
+    Object {
+      "data-testid": "2",
+    }
+  }
+  rows={null}
+  spreadSheetQueryParameters={
+    Object {
+      "gid": 1,
+      "headers": 1,
+    }
+  }
+  spreadSheetUrl={null}
+  style={Object {}}
+  toolbarID={null}
+  toolbarItems={null}
+/>
+`;
+
+exports[`Unit Testing - Rendering BarChart with Fahrenheit renders snapshot 1`] = `
+<Chart
+  chartActions={null}
+  chartEvents={null}
+  chartType="Bar"
+  chartWrapperParams={Object {}}
+  className=""
+  columns={null}
+  controls={null}
+  data={
+    Array [
+      Array [
+        "F",
+        "Temp",
+      ],
+      Array [
+        "39F",
+        39,
+      ],
+      Array [
+        "37F",
+        37,
+      ],
+      Array [
+        "33F",
+        33,
+      ],
+    ]
+  }
+  diffdata={null}
+  formatters={null}
+  getChartEditor={null}
+  getChartWrapper={[Function]}
+  graphID={null}
+  graph_id={null}
+  height="240px"
+  legendToggle={false}
+  legend_toggle={false}
+  loader={
+    <div
+      className="chart-loader"
+    >
+      Loading Chart ...
+    </div>
+  }
+  options={
+    Object {
+      "legend": Object {
+        "position": "none",
+      },
+    }
+  }
+  render={null}
+  rootProps={
+    Object {
+      "data-testid": "2",
+    }
+  }
+  rows={null}
+  spreadSheetQueryParameters={
+    Object {
+      "gid": 1,
+      "headers": 1,
+    }
+  }
+  spreadSheetUrl={null}
+  style={Object {}}
+  toolbarID={null}
+  toolbarItems={null}
+/>
+`;

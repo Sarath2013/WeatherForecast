@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Unit Testing - Rendering Loading Screen renders snapshot 1`] = `
+<div
+  className="loader-content center-content"
+>
+  <div
+    className="loader-text"
+  >
+    Loading ...
+  </div>
+  <WithStyles(ForwardRef(CircularProgress)) />
+</div>
+`;
