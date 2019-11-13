@@ -32,38 +32,38 @@ Run the unit and integration testcases using this command.
 
 <br>
 
-<img height="500" src="https://github.com/Sarath2013/WeatherForecast/blob/master/images/loader.png" />
+<img height="500" src="https://github.com/Sarath2013/WeatherForecast/blob/master/images/loader.PNG" />
 
 <br>
 
-<img height="500" src="https://github.com/Sarath2013/WeatherForecast/blob/master/images/respL1.png" />
-
-<br>
-
-
-<img height="500" src="https://github.com/Sarath2013/WeatherForecast/blob/master/images/respL2.png" />
+<img height="500" src="https://github.com/Sarath2013/WeatherForecast/blob/master/images/respL1.PNG" />
 
 <br>
 
 
-
-<img height="500" src="https://github.com/Sarath2013/WeatherForecast/blob/master/images/respL3.png" />
-
-<br>
-
-
-<img height="500" src="https://github.com/Sarath2013/WeatherForecast/blob/master/images/respTab.png" />
-
-<br>
-
-<img height="500" src="https://github.com/Sarath2013/WeatherForecast/blob/master/images/respMob.png" />
+<img height="500" src="https://github.com/Sarath2013/WeatherForecast/blob/master/images/respL2.PNG" />
 
 <br>
 
 
-<img height="500" src="https://github.com/Sarath2013/WeatherForecast/blob/master/images/1.png" />
+
+<img height="500" src="https://github.com/Sarath2013/WeatherForecast/blob/master/images/respL3.PNG" />
 
 <br>
 
 
-<img height="500" src="https://github.com/Sarath2013/WeatherForecast/blob/master/images/2.png" />
+<img height="500" src="https://github.com/Sarath2013/WeatherForecast/blob/master/images/respTab.PNG" />
+
+<br>
+
+<img height="500" src="https://github.com/Sarath2013/WeatherForecast/blob/master/images/respMob.PNG" />
+
+<br>
+
+
+<img height="500" src="https://github.com/Sarath2013/WeatherForecast/blob/master/images/1.PNG" />
+
+<br>
+
+
+<img height="500" src="https://github.com/Sarath2013/WeatherForecast/blob/master/images/2.PNG" />
