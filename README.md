@@ -1,5 +1,7 @@
 Show weather forecasting inforamtion using React, Redux with Saga, Material UI and Jest with Enzyme unit & integration test cases.
 
+[Live Preview](https://sarath2013.github.io/WeatherForecast/)
+
 ## Available Scripts
 
 In the project directory, you can run:
